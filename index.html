@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>知乎</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>小林专属大保底原神抽卡模拟器</h1>
+    <div id="totalPulls" class="total-pulls"></div>
+    <div id="currentPull" class="current-pull">当前抽取：</div>
+    <div class="buttons">
+        <button id="singlePull" class="btn">单抽</button>
+        <button id="tenPulls" class="btn">十连</button>
+        <button id="historyButton" class="btn">抽卡历史</button>
+    </div>
+    <div id="historyOverlay" class="history-overlay hidden">
+        <button id="backButton" class="btn back-btn">返回</button>
+        <div class="history-panel">
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+</body>
+</html>

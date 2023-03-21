@@ -1,0 +1,107 @@
+body {
+    font-family: 'SimHei', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.total-pulls {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    font-size: 18px;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+.five-star,
+.four-star {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.five-star span,
+.four-star span {
+  margin-right: 1rem;
+}
+
+.current-pull {
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    background-color: #008080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #006666;
+}
+
+.history-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.back-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.history-panel {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    height: 70%;
+    overflow-y: auto;
+    padding: 1rem;
+}
+
+.history-panel ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.history-panel li {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#totalPulls {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
